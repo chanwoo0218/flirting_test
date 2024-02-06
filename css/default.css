@@ -1,0 +1,19 @@
+body {
+  background-color: lightskyblue;
+}
+* {
+  font-family: "Gamja Flower", cursive;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.ad {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.mobile-ad {
+  width: 320px;
+}

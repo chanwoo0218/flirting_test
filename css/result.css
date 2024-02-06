@@ -1,0 +1,98 @@
+#result {
+  display: none;
+  background-color: whitesmoke;
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#shareResult {
+  background-color: whitesmoke;
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultname {
+  font-size: 26px;
+}
+
+.resultDesc {
+  font-size: 18px;
+  /*text-align: center;*/
+  text-align: start;
+}
+
+.button {
+  height: 50px;
+}
+
+.kakaoButton,
+.fbButton,
+.twButton {
+  border: none;
+  background-color: whitesmoke;
+}
+
+.urlButton {
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.shareText {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  .resultname {
+    font-size: 18px;
+  }
+  .resultDesc {
+    font-size: 15px;
+  }
+  .shareText {
+    font-size: 14px;
+  }
+  .button {
+    height: 38px;
+  }
+}
+
+@media (max-width: 350px) {
+  .resultname {
+    font-size: 14px;
+  }
+  .resultDesc {
+    font-size: 10px;
+  }
+  .shareText {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 10px;
+  }
+  .button {
+    height: 32px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 980px) {
+  .resultDesc {
+    text-align: start;
+  }
+}
+
+.gohome {
+  color: white;
+  background-color: dodgerblue;
+  font-size: 18px;
+  border: 0px;
+  border-radius: 15px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: dodgerblue;
+}

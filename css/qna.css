@@ -1,0 +1,93 @@
+#qna {
+  display: none;
+}
+
+.qBox {
+  /*질문 꾸미기*/
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 24px;
+  width: 80%;
+}
+
+.answerList {
+  /*버튼 꾸미기*/
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block; /*button이 inline이므로*/
+  width: 80%;
+  border: 0px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .qBox {
+    font-size: 20px;
+  }
+  .answerList {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 380px) {
+  .qBox {
+    font-size: 17px;
+  }
+  .answerList {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 980px) {
+  .answerList {
+    text-align: start;
+  }
+}
+
+.answerList:hover,
+.answerList:focus {
+  background-color: lightskyblue;
+  color: whitesmoke;
+}
+
+.status {
+  /*전체 바(현재 진행 상태 외에는 흰색으로 표시*/
+  height: 20px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.statusBar {
+  /*현재 진행 상태를 표시하는 바*/
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+  background: rgb(59, 103, 158); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(59, 103, 158, 1) 0%,
+    rgba(43, 136, 217, 1) 50%,
+    rgba(32, 124, 202, 1) 51%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(59, 103, 158, 1) 0%,
+    rgba(43, 136, 217, 1) 50%,
+    rgba(32, 124, 202, 1) 51%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(59, 103, 158, 1) 0%,
+    rgba(43, 136, 217, 1) 50%,
+    rgba(32, 124, 202, 1) 51%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+  border-radius: 20px;
+}

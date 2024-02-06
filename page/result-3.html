@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <meta charset="utf-8" />
+    <!--모바일에서 화면이 잘 나오게-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="chanwoo" />
+    <meta name="keywords" content="플러팅 타입 테스트" />
+    <meta
+      name="description"
+      content="동화 캐릭터로 알아보는 플러팅 타입 테스트"
+    />
+
+    <!--sns share-->
+    <meta property="og:url" content="https://fluttingtype.netlify.app" />
+    <meta property="og:title" content="플러팅 타입 테스트" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../img/share.png" />
+    <meta
+      property="og:description"
+      content="동화 캐릭터로 알아보는 플러팅 타입 테스트"
+    />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico" />
+    <title>플러팅 타입 테스트</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!--bootstrap에서 정의한 css를 사용할 수 있음-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <!--구글에서 따온 폰트 사용-->
+    <link rel="stylesheet" href="../css/default.css" />
+    <link rel="stylesheet" href="../css/result.css" />
+    <script
+      src="https://t1.kakaocdn.net/kakao_js_sdk/2.3.0/kakao.min.js"
+      integrity="sha384-70k0rrouSYPWJt7q9rSTKpiTfX6USlMYjZUtr1Du+9o4cGvhPAWxngdtVZDdErlh"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      Kakao.init("dfca7e9a65020fac7b2f2c0074924df2");
+      Kakao.isInitialized();
+    </script>
+  </head>
+  <body>
+    <section id="shareResult" class="mx-auto mt-4 pb-4">
+      <h1 class="pt-4">나의 플러팅 타입은?!</h1>
+      <div class="resultname">
+        <p>호기심이 많고 순수한<br /><어린왕자></p>
+      </div>
+      <div
+        id="resultImg"
+        class="my-3 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto mb-4"
+      >
+        <img src="../img/image-3.png" alt="3" class="img-fluid" />
+      </div>
+      <div class="resultDesc px-3">
+        <p>
+          당신은...<br />
+          <br />
+          <img src="../img/star.ico" width="15" height="15" /> 사람들에게
+          호기심이 많고 관찰하는 것을 좋아해요.<br />
+          <img src="../img/star.ico" width="15" height="15" /> 관심 있는 상대가
+          있으면 그 사람을 자주 쳐다봐요.<br />
+          <img src="../img/star.ico" width="15" height="15" /> 상대의 성격
+          파악을 잘하고, 상대방에 대한 사소한 것들을 기억 잘 하죠.<br />
+          <img src="../img/star.ico" width="15" height="15" /> 세심한 부분에서
+          상대에게 관심을 표현하지만, 상대방이 알아주지 못하면 조금은 서운해하는
+          성격이에요.
+        </p>
+      </div>
+      <script type="text/javascript">
+        function moveHome() {
+          location.href = "/index.html";
+        }
+      </script>
+      <button
+        type="button"
+        class="gohome mt-3 py-2 px-3"
+        onclick="js:moveHome()"
+      >
+        테스트 하러 가기
+      </button>
+    </section>
+  </body>
+</html>
